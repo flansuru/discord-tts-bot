@@ -10,7 +10,7 @@ const languages = require('../../../../data/languages.json');
 class GoogleProvider extends AbstractProvider {
   constructor() {
     super();
-    this.lang = 'en';
+    this.lang = 'es';
     this.slow = false;
   }
 
